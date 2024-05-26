@@ -1,0 +1,25 @@
+.loader {
+  width: 150px;
+  height: 150px;
+  border: 20px solid #212121;
+  border-bottom-color: transparent;
+  border-radius: 50%;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+  display: flex;
+  margin-left: 40%;
+  margin-top: 380px;
+}
+
+.catImage {
+  position: absolute;
+  top: 50px;
+  left: 10px;
+}
+
+.cat-info {
+  font-family: Arial, Helvetica, sans-serif;
+
+  margin-left: 330px;
+  flex-direction: column;
+}
